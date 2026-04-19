@@ -1,0 +1,19 @@
+{
+    "shot_style": "cinematic",
+    "pacing": "rapid_cut",
+    "genre_anchors": [
+      "epic fantasy",
+      "mythology",
+      "action",
+      "sci-fi"
+    ],
+    "opening_technique": "extreme close-up of a glowing primordial eye that suddenly expands into a cosmic battlefield",
+    "visual_motif": "shifting celestial light patterns representing divine power",
+    "camera_language": "use sweeping crane and dolly shots during exposition to convey grandeur; switch to handheld and quick whip pans during battle sequences to heighten chaos and intensity; locked off steady shots for moments of resolution and divine decree",
+    "forbidden_elements": [
+      "comedic or cartoonish visuals",
+      "modern or anachronistic props or costumes",
+      "slow static shots during battle scenes",
+      "overuse of text overlays or explanatory graphics"
+    ]
+  }

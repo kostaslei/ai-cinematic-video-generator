@@ -5,7 +5,7 @@ from typing import Type, TypeVar
 from openai import OpenAI, RateLimitError, APIConnectionError, APIError
 
 import config
-from models.schemas import BaseAgentOutput
+from schemas.base import BaseAgentOutput
 
 logger = logging.getLogger(__name__)
 
@@ -14,18 +14,16 @@ T = TypeVar("T", bound=BaseAgentOutput)
 client = OpenAI(api_key=config.OPENAI_API_KEY)
 
 
-# ─────────────────────────────────────────
 # Core call
-# ─────────────────────────────────────────
 
 def call_llm(
     *,
     system: str,
     user: str,
     response_model: Type[T],
-    model: str = config.DEFAULT_MODEL,
+    model: str = config.BALANCED_MODEL,
     max_tokens: int = config.DEFAULT_MAX_TOKENS,
-    temperature: float = 0.7,
+    temperature: float,
     retries: int = 3,
 ) -> T:
     last_error = None
@@ -47,6 +45,7 @@ def call_llm(
 
             usage = response.usage
             logger.info(f"Tokens used — input: {usage.prompt_tokens}, output: {usage.completion_tokens}")
+            print(f"\nTokens used — input: {usage.prompt_tokens}, output: {usage.completion_tokens}\n")
 
             return _parse_response(response, response_model)
 
@@ -72,9 +71,7 @@ def call_llm(
     raise RuntimeError(f"LLM call failed after {retries} attempts. Last error: {last_error}")
 
 
-# ─────────────────────────────────────────
 # Internal helpers
-# ─────────────────────────────────────────
 
 def _build_system_prompt(base_system: str, response_model: Type[T]) -> str:
     schema = response_model.model_json_schema()
@@ -98,6 +95,8 @@ def _parse_response(response, response_model: Type[T]) -> T:
 
     try:
         data = json.loads(raw_text)
+        print(json.dumps(data, ensure_ascii=False, indent=2))
+
     except json.JSONDecodeError as e:
         raise ValueError(f"LLM returned invalid JSON: {e}\nRaw output:\n{raw_text}")
 
