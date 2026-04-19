@@ -1,5 +1,13 @@
 from pydantic import BaseModel, Field
 from schemas.base import BaseAgentOutput
+from schemas.video_input import VideoInput
+
+
+# INPUT
+class StoryInput(BaseModel):
+    idea: VideoInput
+
+# OUTPUT
 
 class StoryOutput(BaseAgentOutput):
     logline: str = Field(description="One sentence. The whole story.")

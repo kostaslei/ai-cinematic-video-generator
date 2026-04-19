@@ -1,0 +1,16 @@
+{
+    "color_palette": {
+      "primary": "#0B1E3F",
+      "secondary": "#D4AF37",
+      "accent": "#E25822",
+      "background": "#000000",
+      "emotional_logic": "Deep cosmic blue (#0B1E3F) evokes the vast, mysterious primordial universe and awe of creation; regal gold (#D4AF37) symbolizes divine authority and the majestic gods; fiery orange-red (#E25822) captures the violent, intense energy of the Titan rebellion battle; pure black (#000000) grounds the scenes in the infinite void of space, emphasizing the epic scale and tension."
+    },
+    "lighting_style": "Dynamic high contrast lighting with strong directional key lights for cosmic grandeur during exposition; rapid strobe-like flashes and flickering intense rim lights during battle to convey chaos and violence; soft, ethereal glow with balanced fill for resolution scenes to evoke reverence and solemn divine decree.",
+    "texture_and_grain": "Hyper-realistic digital rendering with detailed cosmic textures, subtle volumetric light rays, and smooth particle effects; no grain to maintain clarity on fast cuts but with a slight organic imperfection in light to keep it cinematic and immersive.",
+    "typography_style": "Elegant serif font with classical Greek-inspired letterforms for minimal title or credits, used sparingly and subtly to avoid disrupting visual momentum.",
+    "aspect_ratio": "9:16",
+    "negative_space_usage": "moderate",
+    "midjourney_style_suffix": "--v 6 --ar 9:16 --q 2 --style cinematic --no cartoonish, modern props, slow static shots, excessive text overlays"
+  }
+  

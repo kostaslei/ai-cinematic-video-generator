@@ -1,13 +1,12 @@
 
 from llm.client import call_llm
-from schemas.video_input import VideoInput
-from schemas.story import StoryOutput
+from schemas.story import StoryInput, StoryOutput
 from prompts.story import STORY_SYSTEM_PROMPT
 from config import BALANCED_MODEL
 
 class StoryAgent:
 
-    def run(self, input: VideoInput) -> StoryOutput:
+    def run(self, input: StoryInput) -> StoryOutput:
         #logger.info(f"StoryAgent starting — topic: '{input.topic}', platform: {input.platform}")
 
         user_message = self._build_user_message(input)
@@ -23,11 +22,11 @@ class StoryAgent:
         #logger.info(f"StoryAgent done — OUTPUT:\n {result}")
         return result
 
-    def _build_user_message(self, input: VideoInput) -> str:
+    def _build_user_message(self, input: StoryInput) -> str:
         return f"""
-        Topic: {input.topic}
-        Target duration seconds: {input.target_duration_seconds}
-        Platform: {input.platform}
-        Target audience: {input.target_audience}
-        Tone: {input.tone}
+        Topic: {input.idea.topic}
+        Target duration seconds: {input.idea.target_duration_seconds}
+        Platform: {input.idea.platform}
+        Target audience: {input.idea.target_audience}
+        Tone: {input.idea.tone}
         """.strip()

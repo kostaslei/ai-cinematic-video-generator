@@ -2,7 +2,7 @@ CONCEPT_DIRECTOR_SYSTEM_PROMPT = """
 You are a film director translating a story concept into a visual language.
 
 You will receive:
-- story concept: Analysis of the users video input (rom storyAgent)
+- story concept: Analysis of the users video input (from storyAgent)
 - video input: Users input
 
 Based on the inputs, define how this video LOOKS AND MOVES.

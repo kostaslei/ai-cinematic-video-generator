@@ -1,0 +1,50 @@
+{
+  "hook_line": "What if the very gods who created the universe were destined to fight for its control?",
+  "full_narration": "In the beginning, there was only the primordial gods — majestic, eternal, and all-powerful creators of the cosmos. [PAUSE] Their divine light shaped the void, birthing stars, worlds, and the very fabric of existence itself. [PAUSE] But from their own bloodline, the younger Titans rose — fierce, rebellious, hungry for power. [PAUSE][EMPHASIS] A cosmic war erupted, shaking galaxies, as these titanic forces clashed in a brutal battle for supremacy. [PAUSE] Flames of chaos blazed through the heavens, celestial bodies shattered, and the fate of all existence hung in the balance. [PAUSE] In the end, the victorious gods forged a new cosmic order — balanced, yet born from struggle and transformation. [PAUSE][EMPHASIS] This is the story of divine conflict that shaped the universe — reminding us that even gods are born of war, and all power comes with a price.",
+  "word_count": 122,
+  "estimated_spoken_duration_seconds": 41,
+  "audio_cues": [
+    {
+      "timestamp_hint": "opening",
+      "cue_type": "sfx",
+      "description": "Sound of a glowing eye expanding, cosmic hum building tension."
+    },
+    {
+      "timestamp_hint": "opening",
+      "cue_type": "music_in",
+      "description": "Epic orchestral music swells, majestic and mysterious, introducing the primordial gods."
+    },
+    {
+      "timestamp_hint": "scene_2",
+      "cue_type": "ambient",
+      "description": "Subtle cosmic wind and distant star pulses, setting vastness."
+    },
+    {
+      "timestamp_hint": "turning_point",
+      "cue_type": "music_swell",
+      "description": "Intensifying orchestral strings and percussion as Titans rise and battle begins."
+    },
+    {
+      "timestamp_hint": "turning_point",
+      "cue_type": "sfx",
+      "description": "Rapid, sharp clashes of celestial weapons, explosions echoing through space."
+    },
+    {
+      "timestamp_hint": "battle_sequence",
+      "cue_type": "music_in",
+      "description": "Fast-paced, rhythmic percussion layered with aggressive brass, conveying chaos and violence."
+    },
+    {
+      "timestamp_hint": "resolution",
+      "cue_type": "music_out",
+      "description": "Music transitions to a solemn, reverent theme with soft choir and sustained strings."
+    },
+    {
+      "timestamp_hint": "outro",
+      "cue_type": "ambient",
+      "description": "Gentle cosmic hum fades out, leaving a sense of awe and quiet reverence."
+    }
+  ],
+  "music_brief": "Epic orchestral score with a tempo ranging between 70-90 BPM. The music begins with a majestic and mysterious theme conveying cosmic grandeur, builds into a fast-paced, intense battle section with aggressive brass and rhythmic percussion, then resolves into a solemn, reverent finale featuring soft choir and sustained strings. The emotional arc follows awe, rising tension and chaos, and ends with calm resolution and reverence.",
+  "narration_style": "cinematic, dramatic, with measured pacing that builds tension and evokes awe"
+}
