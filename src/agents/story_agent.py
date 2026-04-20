@@ -2,7 +2,7 @@
 from llm.client import call_llm
 from schemas.story import StoryInput, StoryOutput
 from prompts.story import STORY_SYSTEM_PROMPT
-from config import BALANCED_MODEL
+from config import STRONG_MODEL
 
 class StoryAgent:
 
@@ -15,7 +15,7 @@ class StoryAgent:
             system=STORY_SYSTEM_PROMPT,
             user=user_message,
             response_model=StoryOutput,
-            model=BALANCED_MODEL,
+            model=STRONG_MODEL,
             temperature=0.9
         )
 

@@ -1,0 +1,61 @@
+{
+    "image_prompts": [
+      {
+        "scene_id": "sc_01",
+        "prompt": "irregular massive stone blocks with deep jagged fractures, floor of rough slate blue-grey stone scored with grooves, eroded ambiguous carvings of hands and faces on walls, fractured golden medallion or cracked stone tablet in foreground, compressed depth with background receding into heavy shadow, shadowed marble silhouette, vertical split cracks with rust pigment, elongated frozen fingers, hollow eye sockets, pitted stone texture, center frame, no facial movement, fingers extended and splayed, entire form fixed in stone, hands and arms emerging from fractured tablet, the cracked stone tablet surface with ambiguous carvings of hands reaching but frozen, camera lingers in semi-darkness, shadows flicker over the fractured surface, single filtered torch or candle recessed in wall alcove, heavy stone partially blocks and diffuses light, deep ambiguous shadows in corners, no fill, diffuse, marble bas-relief mixed-media, cold diffuse overcast lighting, desaturated slate blue-grey palette, tactile stone grain and digital film grain overlay --ar 9:16 --style raw --v 6.1",
+        "negative_prompt": "text, watermark, signature, frame, border, golden-hour lighting, epic vista, modern props, clean surfaces, electric lighting, symmetrical details, open sky, pure black or white, heroic pose"
+      },
+      {
+        "scene_id": "sc_02",
+        "prompt": "irregular massive stone blocks with deep jagged fractures, floor of rough slate blue-grey stone scored with grooves, eroded ambiguous carvings of hands and faces on walls, fractured golden medallion or cracked stone tablet in foreground, compressed depth with background receding into heavy shadow, sunken angular face, slate blue-grey deep-set eyes, rough-woven slate robe, fractured golden medallion, pronounced hooked nose, left foreground, brows knitted downward, mouth strained wide open, jaw muscles rigid, eyes darting, shoulders hunched, torso curved protectively, left hand clenched at chest, right hand gripping robe, head thrust forward, the cracked edges of the fractured golden medallion on the ground, handheld close tracking shot in a claustrophobic cave interior, single filtered torch or candle recessed in wall alcove, heavy stone partially blocks and diffuses light, deep ambiguous shadows in corners, no fill, diffuse, marble bas-relief mixed-media, cold diffuse overcast lighting, desaturated slate blue-grey palette, tactile stone grain and digital film grain overlay --ar 9:16 --style raw --v 6.1",
+        "negative_prompt": "text, watermark, signature, frame, border, golden-hour lighting, grand war montage, modern materials, open sky, clean surfaces, epic vista, symmetrical architecture, heroic reunion"
+      },
+      {
+        "scene_id": "sc_03",
+        "prompt": "irregular massive stone blocks with deep jagged fractures, floor of rough slate blue-grey stone scored with grooves, eroded ambiguous carvings of hands and faces on walls, fractured golden medallion or cracked stone tablet in foreground, compressed depth with background receding into heavy shadow, muted rust-brown large eyes, parchment skin with marble flecks, cropped slate hair with rust highlights, cracked golden medallion clasp, frayed parchment tunic, background right, partially obscured by fractured stone crack in foreground, eyes cast down, brows faintly drawn, lips pressed tight, body pressed into shadow, knees pulled close, right hand gripping split medallion, left arm wrapped around legs, head tucked low, the partially mended but still cracked family heirloom medallion held tightly, low-angle shot with fractured stone wall split by jagged crack in foreground, single filtered torch or candle recessed in wall alcove, heavy stone partially blocks and diffuses light, deep ambiguous shadows in corners, no fill, diffuse, marble bas-relief mixed-media, cold diffuse overcast lighting, desaturated slate blue-grey palette, tactile stone grain and digital film grain overlay --ar 9:16 --style raw --v 6.1",
+        "negative_prompt": "text, watermark, signature, frame, border, golden-hour lighting, epic vista, modern props, clean surfaces, open sky, symmetrical details, heroic reunion, metallic objects"
+      },
+      {
+        "scene_id": "sc_04",
+        "prompt": "irregular massive stone blocks with deep jagged fractures, floor of rough slate blue-grey stone scored with grooves, eroded ambiguous carvings of hands and faces on walls, fractured golden medallion or cracked stone tablet in foreground, compressed depth with background receding into heavy shadow, muted rust-brown large eyes, parchment skin with marble flecks, cropped slate hair with rust highlights, cracked golden medallion clasp, frayed parchment tunic, center frame, low angle, eyes narrowed, jaw set, chin tilted upward, shoulders squared, feet apart, right fist clutching shattered medallion at side, head angled up, barely visible sunken angular face, slate blue-grey deep-set eyes, rough-woven slate robe, fractured golden medallion, pronounced hooked nose in background left, partially obscured by fractured stone slabs, the shattered family medallion at the figure’s feet, low-angle view against fractured stone background, cracked stone slabs obscuring sky, single filtered torch or candle recessed in wall alcove, heavy stone partially blocks and diffuses light, deep ambiguous shadows in corners, no fill, diffuse, marble bas-relief mixed-media, cold diffuse overcast lighting, desaturated slate blue-grey palette, tactile stone grain and digital film grain overlay --ar 9:16 --style raw --v 6.1",
+        "negative_prompt": "text, watermark, signature, frame, border, golden-hour lighting, epic vista, modern props, clean surfaces, open sky, symmetrical details, heroic reunion, metallic objects"
+      },
+      {
+        "scene_id": "sc_05",
+        "prompt": "irregular massive stone blocks with deep jagged fractures, floor of rough slate blue-grey stone scored with grooves, eroded ambiguous carvings of hands and faces on walls, fractured golden medallion or cracked stone tablet in foreground, compressed depth with background receding into heavy shadow, the cracked medallion fragments on the stone altar, wide static shot of cold, ruined stone altar scattered with broken fragments, single filtered torch or candle recessed in wall alcove, heavy stone partially blocks and diffuses light, deep ambiguous shadows in corners, no fill, diffuse, marble bas-relief mixed-media, cold diffuse overcast lighting, desaturated slate blue-grey palette, tactile stone grain and digital film grain overlay --ar 9:16 --style raw --v 6.1",
+        "negative_prompt": "text, watermark, signature, frame, border, golden-hour lighting, epic vista, modern props, clean surfaces, open sky, symmetrical details, heroic reunion, metallic objects"
+      }
+    ],
+    "video_prompts": [
+      {
+        "scene_id": "sc_01",
+        "prompt": "The frame begins on a cracked stone tablet in semi-darkness, ambiguous carvings of hands reaching but frozen, with a shadowed marble silhouette partially emerging from the fractured surface at center frame. Camera remains static, no movement. No subject motion—the marble silhouette is completely frozen. Shadows flicker subtly across the fractured stone and tablet surface, emphasizing jagged breaks and shifting torchlight. Duration: 7s",
+        "camera_movement": "locked-off wide, no movement",
+        "motion_intensity": "subtle"
+      },
+      {
+        "scene_id": "sc_02",
+        "prompt": "The video starts with a handheld, slightly shaky close tracking shot on a shadowed figure in the left foreground, hunched over, with a cracked golden medallion on the ground. The camera remains close and shaky, never giving a full view of the subject. The figure’s jaw tenses and throat works as they swallow, right hand gripping robe tightens, eyes dart side to side. Shadows in the cave flicker and shift, and faint dust motes drift through the filtered torchlight. Duration: 9s",
+        "camera_movement": "handheld, slightly shaky close tracking shot that never gives a full view of the subject",
+        "motion_intensity": "subtle"
+      },
+      {
+        "scene_id": "sc_03",
+        "prompt": "The video begins with a low-angle shot through a fractured stone crack, revealing a small figure hidden in deep shadow, gripping a split medallion tightly. Camera slowly pushes in on the partially mended but still cracked medallion in the figure’s hand. The figure’s right hand trembles slightly as it clutches the medallion, knees shift closer to chest, head lowers further into shadow. Ambient torchlight flickers, casting shifting shadows along the cracked stone wall. Duration: 9s",
+        "camera_movement": "slow push-in to linger on the object, withholding full context",
+        "motion_intensity": "subtle"
+      },
+      {
+        "scene_id": "sc_04",
+        "prompt": "The video starts with a handheld, slightly shaky low-angle close shot of a figure standing defiantly center frame, shattered medallion at their feet, fractured stone slabs splitting the background. Camera remains low-angle and slightly shaky, emphasizing tension. The figure’s right fist tightens around the medallion, shoulders square further, chin lifts higher. In the background, the empty robe and medallion fragments remain motionless. Overhead, a few small stone chips fall as the cracked slabs shift imperceptibly. Duration: 10s",
+        "camera_movement": "handheld, slightly shaky low-angle shot with foreground objects fracturing the background",
+        "motion_intensity": "subtle"
+      },
+      {
+        "scene_id": "sc_05",
+        "prompt": "The video begins with a wide, static shot of a ruined stone altar scattered with cracked medallion fragments in the foreground. Camera remains static and wide, emphasizing distance and isolation. No character motion—only the ambient dimming of torchlight as shadows lengthen, and faint dust motes drift slowly across the altar. Duration: 10s",
+        "camera_movement": "wide, static shot that emphasizes distance between figures",
+        "motion_intensity": "subtle"
+      }
+    ]
+  }

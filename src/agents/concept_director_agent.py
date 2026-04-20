@@ -2,7 +2,7 @@
 from llm.client import call_llm
 from schemas.concept_director import ConceptDirectorInput, ConceptDirectorOutput
 from prompts.concept_director import CONCEPT_DIRECTOR_SYSTEM_PROMPT
-from config import BALANCED_MODEL
+from config import STRONG_MODEL
 
 class ConceptDirectorAgent:
 
@@ -15,7 +15,7 @@ class ConceptDirectorAgent:
             system=CONCEPT_DIRECTOR_SYSTEM_PROMPT,
             user=user_message,
             response_model=ConceptDirectorOutput,
-            model=BALANCED_MODEL,
+            model=STRONG_MODEL,
             temperature=0.7
         )
 

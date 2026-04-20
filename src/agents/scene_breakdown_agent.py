@@ -28,4 +28,7 @@ class SceneBreakdownAgent:
         Story: {input.story}
         Concept: {input.concept}
         Script: {input.script}
+        Total duration seconds: {input.idea.target_duration_seconds}
         """.strip()
+
+    

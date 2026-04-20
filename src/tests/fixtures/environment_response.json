@@ -1,0 +1,33 @@
+{
+  "environments": [
+    {
+      "environment_id": "fractured_stone_chamber",
+      "name": "Fractured Stone Chamber",
+      "physical_description": "Interior. The architecture is primordial, resembling a confined Bronze Age underworld sanctuary constructed from massive irregular stone blocks, roughly hewn and mortared into a space barely larger than a human can stand upright. The floor is uneven carved stone, mottled with shallow grooves and dust-filled cracks, its surface dominated by the desaturated slate blue-grey (#5c5e6c) and edged with muted parchment tones (#b8aa92) where stone has worn smooth. Walls rise close and heavy, marked everywhere by jagged fractures, ancient carvings eroded yet just legible as hands and faces half-swallowed by the rock. Low ceiling stones press down, some split or canted at unnatural angles. In the foreground: a cracked stone tablet with ambiguous reliefs; midground features a broken golden medallion, some fragments half-buried in dust or caught in shadow. The visual motif—the fractured family heirloom—appears variously as cracked relic tablet, split golden medallion, or shattered fragments, always positioned at a visual focal point, mended or broken further depending on the scene. Depth layers are compressed: tablet or medallion in foreground, fractured stone and faint carvings in midground, with background receding quickly into unlit shadow—no horizon, only narrowing depth.",
+      "lighting": {
+        "time_of_day": "no natural time of day, fully interior, practicals only",
+        "weather": "interior, not applicable",
+        "light_source": "single filtered torch or candle recessed in wall alcove, heavy stone partially blocks and diffuses light, deep ambiguous shadows in corners, no fill",
+        "shadow_quality": "diffuse"
+      },
+      "atmosphere": "The air is cold, dense, and faintly metallic, carrying the smell of ancient stone and dust disturbed from deep cracks. Every small sound—breath, stone scraping, a distant drip—echoes in muffled layers, reinforcing the sense of enclosure. Dust motes drift lazily through shafts of filtered light, and the heaviness of the chamber intensifies the suffocating dread and generational weight that the narrative seeks to evoke.",
+      "consistency_anchor": "irregular massive stone blocks with deep jagged fractures, floor of rough slate blue-grey stone scored with grooves, eroded ambiguous carvings of hands and faces on walls, fractured golden medallion or cracked stone tablet in foreground, compressed depth with background receding into heavy shadow",
+      "forbidden_elements": [
+        "No golden-hour heroic lighting—this story is not a triumph.",
+        "No slow-motion battle sequences or grand war montages—aestheticized violence undermines the trauma focus.",
+        "No Olympian thrones or epic vistas as establishing shots—the world should feel claustrophobic, not grand.",
+        "No warm familial reunions—the tone is uneasy, not redemptive.",
+        "No overtly mythological props like thunderbolts or winged sandals unless distorted or broken—the divine must feel wounded.",
+        "No voice-over exposition or text overlays in the opening—the dread must be felt, not explained.",
+        "no electric lighting",
+        "no metal fixtures with industrial finish",
+        "no symmetrical architectural details",
+        "no clean or unweathered surfaces",
+        "no high-key or direct sun lighting",
+        "no modern props or materials",
+        "no open sky or exterior vistas visible",
+        "no pure black or white surfaces—only palette colors"
+      ]
+    }
+  ]
+}

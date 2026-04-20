@@ -2,7 +2,7 @@
 from llm.client import call_llm
 from schemas.style import StyleInput, StyleOutput
 from prompts.style import STYLE_SYSTEM_PROMPT
-from config import BALANCED_MODEL
+from config import STRONG_MODEL
 
 class StyleAgent:
 
@@ -15,7 +15,7 @@ class StyleAgent:
             system=STYLE_SYSTEM_PROMPT,
             user=user_message,
             response_model=StyleOutput,
-            model=BALANCED_MODEL,
+            model=STRONG_MODEL,
             temperature=0.8
         )
 

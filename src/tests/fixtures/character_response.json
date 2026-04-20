@@ -1,0 +1,85 @@
+{
+  "characters": [
+    {
+      "character_id": "shadowed_cronus",
+      "role": "antagonist",
+      "visual_description": "Appears late middle-aged with a gaunt, imposing build that gives a sense of heaviness, standing slightly stooped yet broad-shouldered. Skin is pale olive-grey, with a pitted, coarse stone-like texture consistent with ancient carved marble. Face is long and angular, with a sunken jawline, sharp hooked nose, deep-set slate blue-grey eyes, and heavy, furrowed brows that cast shadows over the eyes. Hair is shoulder-length, wiry, and streaked unevenly with slate blue and muted parchment, swept back and partly tangled. Distinctive old surgical scar crosses the left cheek, and subtle age spots mar the temples.",
+      "base_wardrobe": "Long, rough-woven slate blue-grey robe with faint, darker vertical striations mimicking chiseled stone. Robe fits loosely, frayed at the cuffs and hem, with muted parchment-toned underlayers barely visible beneath. A heavy, fractured golden medallion—broken at the edge—dangles from a worn leather thong at his neck, always partially obscured within the folds. Sandal straps are parchment-colored, dirt-stained; no other adornment.",
+      "states": [
+        {
+          "state_id": "devouring",
+          "appears_in_scenes": [
+            "sc_02"
+          ],
+          "expression": "brows knitted downward, mouth strained wide open with cheeks stretched taut, jaw muscles rigid, eyes darting side to side with whites prominent in shadow",
+          "body_language": "shoulders hunched forward, torso curved protectively over the action, left hand clenched at chest, right hand gripping robe near throat, head thrust slightly forward with chin tucked",
+          "wardrobe_note": "none"
+        },
+        {
+          "state_id": "absent_ruin",
+          "appears_in_scenes": [
+            "sc_05"
+          ],
+          "expression": "not directly visible, only implied by absence—no facial expression",
+          "body_language": "not directly visible—presence registered by empty, heavy folds of robe and the broken medallion fragments lying still",
+          "wardrobe_note": "robe and medallion remain, but medallion now split and scattered among stone fragments"
+        }
+      ],
+      "consistency_anchor": "sunken angular face, slate blue-grey deep-set eyes, rough-woven slate robe, fractured golden medallion, pronounced hooked nose"
+    },
+    {
+      "character_id": "hidden_zeus",
+      "role": "protagonist",
+      "visual_description": "Appears as a young adult with a lean, wiry body, slightly below medium height but with a coiled, alert posture. Skin is pale parchment with muted undertones, dusted with faint marble-like flecks across jaw and forearms. Face is oval, with a narrow, sloping jawline and high cheekbones; nose is straight and narrow, lips thin and set. Eyes are large, almond-shaped, with irises a muted rust brown, contrasting with the slate palette. Brows are straight and fine, giving the face a tense, drawn quality. Hair is cropped short, slightly wavy, and colored a cool muted slate with rust-tinted highlights at the temples. On the right wrist, a faint irregular scar runs parallel to the hand.",
+      "base_wardrobe": "Fitted tunic in worn, pale parchment color, heavily textured like rough linen, with edges frayed. Over the tunic, a slate blue-grey woolen cloak, short and clasped at the collarbone, the clasp a cracked half of a gold medallion (the other half hidden in hand or at waist). Barefoot, with dust ingrained on heels and toes. No jewelry beyond the medallion clasp.",
+      "states": [
+        {
+          "state_id": "hidden_haunted",
+          "appears_in_scenes": [
+            "sc_03"
+          ],
+          "expression": "eyes cast down and slightly to the left, brows faintly drawn together, lips pressed tight with lower lip protruding, jaw muscles tensed",
+          "body_language": "body pressed into shadow, knees pulled close to chest, right hand gripping split medallion tightly, left arm wrapped protectively around legs, head tucked low",
+          "wardrobe_note": "cloak hood pulled low over forehead, medallion mostly hidden in right hand"
+        },
+        {
+          "state_id": "defiant_shatter",
+          "appears_in_scenes": [
+            "sc_04"
+          ],
+          "expression": "eyes narrowed, lids lowered to half-mast, jaw set with lower teeth visible, nostrils flared, chin tilted upward",
+          "body_language": "shoulders squared, feet apart and planted, right fist clutching shattered medallion at side, left hand hanging loose, head angled up toward fractured stone above",
+          "wardrobe_note": "cloak thrown back from shoulders, medallion now shattered at feet, tunic soiled with muted rust accent flecks"
+        },
+        {
+          "state_id": "absent_ruin",
+          "appears_in_scenes": [
+            "sc_05"
+          ],
+          "expression": "not directly visible, only implied by absence—no facial expression",
+          "body_language": "not directly visible—presence registered by empty altar and scattered medallion fragments",
+          "wardrobe_note": "cloak and tunic off-frame, only medallion fragments visible"
+        }
+      ],
+      "consistency_anchor": "muted rust-brown large eyes, parchment skin with marble flecks, cropped slate hair with rust highlights, cracked golden medallion clasp, frayed parchment tunic"
+    },
+    {
+      "character_id": "shadowed_figure",
+      "role": "motif embodiment / narrative anchor",
+      "visual_description": "Indistinct, non-human form rendered as a deeply shadowed silhouette—height and build slightly larger than average, carved in low relief with no clear gender or age. Marble-textured surface with split cracks running vertically, some filled with accent rust pigment. Face is only partially visible: hollowed eye sockets, elongated fingers outstretched but frozen mid-reach, hands emerging from a fractured stone edge. No visible mouth; only the suggestion of a nose bridge and eyebrow ridges. Stone surface appears worn, pitted, and dust-laden, with dust trapped in the lines of each fracture.",
+      "base_wardrobe": "No clothing—entire form is a tactile, shadowed marble bas-relief, with cracks and split surfaces colored in slate blue-grey and muted parchment. Rust pigment marks appear only at points of fracture or split along the hands. Sometimes partially occluded by darkness or by edges of the frame.",
+      "states": [
+        {
+          "state_id": "frozen_reach",
+          "appears_in_scenes": [
+            "sc_01"
+          ],
+          "expression": "no facial movement—eye sockets empty, brow ridges slightly raised, fingers extended and splayed as if reaching upward but halted mid-motion",
+          "body_language": "entire form fixed in stone, partial silhouette with hands and arms emerging from fractured tablet, no detectable movement, angle suggests longing or desperate extension without progress",
+          "wardrobe_note": "none"
+        }
+      ],
+      "consistency_anchor": "shadowed marble silhouette, vertical split cracks with rust pigment, elongated frozen fingers, hollow eye sockets, pitted stone texture"
+    }
+  ]
+}

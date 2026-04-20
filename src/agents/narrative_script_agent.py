@@ -2,7 +2,14 @@
 from llm.client import call_llm
 from schemas.narrative_script import NarrativeScriptInput, NarrativeScriptOutput
 from prompts.narrative_script import NARRATIVE_SCRIPT_SYSTEM_PROMPT
-from config import BALANCED_MODEL
+from config import STRONG_MODEL
+
+WORDS_PER_SECOND = {
+    "slow_build": 2.0,
+    "static_contemplative": 2.2,
+    "rhythmic": 2.8,
+    "rapid_cut": 3.2,
+}
 
 class NarrativeScriptAgent:
 
@@ -15,7 +22,7 @@ class NarrativeScriptAgent:
             system=NARRATIVE_SCRIPT_SYSTEM_PROMPT,
             user=user_message,
             response_model=NarrativeScriptOutput,
-            model=BALANCED_MODEL,
+            model=STRONG_MODEL,
             temperature=0.8
         )
 
@@ -23,9 +30,15 @@ class NarrativeScriptAgent:
         return result
 
     def _build_user_message(self, input: NarrativeScriptInput) -> str:
+        total_duration=input.idea.target_duration_seconds
+        rate = WORDS_PER_SECOND[input.director_concept.pacing]
+        max_words = int(total_duration * rate * 0.92)
         return f"""
-        Story concept: {input.story_concept}
-        Director concept: {input.director_concept}
-        Idea: {input.idea}
+        Story: {input.story_concept}
+        Concept: {input.director_concept}
+        Pipeline Input: {input.idea}
         Style: {input.style}
+        Total duration: {total_duration}
+        Max_words: {max_words}
+        Word rate: {rate}
         """.strip()

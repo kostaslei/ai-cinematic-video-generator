@@ -1,0 +1,83 @@
+{
+  "scene_casts": [
+    {
+      "scene_id": "sc_01",
+      "environment_id": "fractured_stone_chamber",
+      "character_assignments": [
+        {
+          "character_id": "shadowed_figure",
+          "state_id": "frozen_reach",
+          "consistency_anchor": "shadowed marble silhouette, vertical split cracks with rust pigment, elongated frozen fingers, hollow eye sockets, pitted stone texture",
+          "expression": "no facial movement—eye sockets empty, brow ridges slightly raised, fingers extended and splayed as if reaching upward but halted mid-motion",
+          "body_language": "entire form fixed in stone, partial silhouette with hands and arms emerging from fractured tablet, no detectable movement, angle suggests longing or desperate extension without progress",
+          "position_note": "center frame"
+        }
+      ],
+      "composition_note": "Fractured stone tablet in center frame, walls with jagged fractures compress the background into shadow",
+      "foreground_focus": "the cracked stone tablet surface"
+    },
+    {
+      "scene_id": "sc_02",
+      "environment_id": "fractured_stone_chamber",
+      "character_assignments": [
+        {
+          "character_id": "shadowed_cronus",
+          "state_id": "devouring",
+          "consistency_anchor": "sunken angular face, slate blue-grey deep-set eyes, rough-woven slate robe, fractured golden medallion, pronounced hooked nose",
+          "expression": "brows knitted downward, mouth strained wide open with cheeks stretched taut, jaw muscles rigid, eyes darting side to side with whites prominent in shadow",
+          "body_language": "shoulders hunched forward, torso curved protectively over the action, left hand clenched at chest, right hand gripping robe near throat, head thrust slightly forward with chin tucked",
+          "position_note": "left foreground"
+        }
+      ],
+      "composition_note": "Shadowed Cronus in left foreground, cracked golden medallion on ground in midground with cave walls enclosing tightly",
+      "foreground_focus": "the cracked edges of the fractured golden medallion"
+    },
+    {
+      "scene_id": "sc_03",
+      "environment_id": "fractured_stone_chamber",
+      "character_assignments": [
+        {
+          "character_id": "hidden_zeus",
+          "state_id": "hidden_haunted",
+          "consistency_anchor": "muted rust-brown large eyes, parchment skin with marble flecks, cropped slate hair with rust highlights, cracked golden medallion clasp, frayed parchment tunic",
+          "expression": "eyes cast down and slightly to the left, brows faintly drawn together, lips pressed tight with lower lip protruding, jaw muscles tensed",
+          "body_language": "body pressed into shadow, knees pulled close to chest, right hand gripping split medallion tightly, left arm wrapped protectively around legs, head tucked low",
+          "position_note": "background right, partially obscured by fractured stone crack in foreground"
+        }
+      ],
+      "composition_note": "Low-angle fractured stone wall split by jagged crack in foreground right, hidden Zeus in shadowed background right",
+      "foreground_focus": "the partially mended but still cracked family heirloom medallion"
+    },
+    {
+      "scene_id": "sc_04",
+      "environment_id": "fractured_stone_chamber",
+      "character_assignments": [
+        {
+          "character_id": "hidden_zeus",
+          "state_id": "defiant_shatter",
+          "consistency_anchor": "muted rust-brown large eyes, parchment skin with marble flecks, cropped slate hair with rust highlights, cracked golden medallion clasp, frayed parchment tunic",
+          "expression": "eyes narrowed, lids lowered to half-mast, jaw set with lower teeth visible, nostrils flared, chin tilted upward",
+          "body_language": "shoulders squared, feet apart and planted, right fist clutching shattered medallion at side, left hand hanging loose, head angled up toward fractured stone above",
+          "position_note": "center frame, low angle"
+        },
+        {
+          "character_id": "shadowed_cronus",
+          "state_id": "absent_ruin",
+          "consistency_anchor": "sunken angular face, slate blue-grey deep-set eyes, rough-woven slate robe, fractured golden medallion, pronounced hooked nose",
+          "expression": "not directly visible, only implied by absence—no facial expression",
+          "body_language": "not directly visible—presence registered by empty, heavy folds of robe and the broken medallion fragments lying still",
+          "position_note": "background left, partially obscured by fractured stone slabs"
+        }
+      ],
+      "composition_note": "Low-angle figure center frame with fractured stone slabs splitting background, shadowed Cronus presence in background left",
+      "foreground_focus": "the shattered family medallion at the figure’s feet"
+    },
+    {
+      "scene_id": "sc_05",
+      "environment_id": "fractured_stone_chamber",
+      "character_assignments": [],
+      "composition_note": "Wide static shot of ruined stone altar center frame, cracked medallion fragments scattered across foreground",
+      "foreground_focus": "the cracked medallion fragments on the stone altar"
+    }
+  ]
+}

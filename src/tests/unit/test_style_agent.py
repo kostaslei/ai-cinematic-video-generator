@@ -4,7 +4,7 @@ from agents.style_agent import StyleAgent
 from schemas.story import StoryOutput
 from schemas.style import StyleInput, StyleOutput
 from schemas.concept_director import ConceptDirectorOutput
-from schemas.VideoInput import VideoInput
+from schemas.video_input import VideoInput
 from tests.conftest import load_fixture
 
 # Fixtures

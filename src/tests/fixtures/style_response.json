@@ -1,16 +1,15 @@
 {
-    "color_palette": {
-      "primary": "#0B1E3F",
-      "secondary": "#D4AF37",
-      "accent": "#E25822",
-      "background": "#000000",
-      "emotional_logic": "Deep cosmic blue (#0B1E3F) evokes the vast, mysterious primordial universe and awe of creation; regal gold (#D4AF37) symbolizes divine authority and the majestic gods; fiery orange-red (#E25822) captures the violent, intense energy of the Titan rebellion battle; pure black (#000000) grounds the scenes in the infinite void of space, emphasizing the epic scale and tension."
-    },
-    "lighting_style": "Dynamic high contrast lighting with strong directional key lights for cosmic grandeur during exposition; rapid strobe-like flashes and flickering intense rim lights during battle to convey chaos and violence; soft, ethereal glow with balanced fill for resolution scenes to evoke reverence and solemn divine decree.",
-    "texture_and_grain": "Hyper-realistic digital rendering with detailed cosmic textures, subtle volumetric light rays, and smooth particle effects; no grain to maintain clarity on fast cuts but with a slight organic imperfection in light to keep it cinematic and immersive.",
-    "typography_style": "Elegant serif font with classical Greek-inspired letterforms for minimal title or credits, used sparingly and subtly to avoid disrupting visual momentum.",
-    "aspect_ratio": "9:16",
-    "negative_space_usage": "moderate",
-    "midjourney_style_suffix": "--v 6 --ar 9:16 --q 2 --style cinematic --no cartoonish, modern props, slow static shots, excessive text overlays"
-  }
-  
+  "color_palette": {
+    "primary": "#5c5e6c",
+    "secondary": "#b8aa92",
+    "accent": "#b54c2b",
+    "background": "#26262e",
+    "emotional_logic": "The primary slate blue-grey (#5c5e6c) creates a cold, oppressive mood that anchors inherited dread, dominating moments of Cronus's rule and the lingering sense of inevitable betrayal. The secondary muted parchment (#b8aa92) references ancient stone and bone, surfacing in moments of revelation or when the fractured heirloom motif is shown, tying to the tactile and archaeological. The accent color, a deep muted rust (#b54c2b), appears only at the climactic moment of generational rupture—the shattering of the family bond or final act of rebellion—its rare warmth signifying bloodline, pain, and irrevocable change. The background near-black indigo (#26262e) is consistent throughout, supporting the claustrophobic, shadow-heavy world and allowing both dread and uneasy triumph to register without the release or purity of true black or white."
+  },
+  "lighting_style": "Dominant lighting is diffuse, cold, and shadow-heavy, as if filtered through thick stone or overcast sky (4300K–5200K). Primary sources are motivated by practicals—candlelight and torch glow, but always filtered so shadows fall deep and ambiguous. No high-key or heroic setups; light shapes space minimally and never fully reveals, keeping the world half-hidden. During moments of paranoia, practicals only—no fill; shadows deepen. In 'triumph' sequences, light is static, wide, and distant, highlighting emotional separation.",
+  "texture_and_grain": "Muted tactile mixed-media: marble bas-relief photo-overlay with tactile stone grain, combined with subtle digital film grain and shallow engraving lines. Surfaces appear tactile—cool, faintly rough, as if running a hand over ancient carved stone with dust trapped in the cracks.",
+  "typography_style": "Sparse, all-caps serif with stone-engraved texture for rare title cards or overlays after the opening. Weight is medium; spacing is wide for a timeless, institutional feel. The type is slightly eroded or distressed, echoing the fractured motif and trauma. No text overlays in the opening per forbidden elements; only after context emerges.",
+  "aspect_ratio": "9:16",
+  "negative_space_usage": "heavy",
+  "midjourney_style_suffix": "marble bas-relief mixed-media, cold diffuse overcast lighting, desaturated slate blue-grey palette, tactile stone grain and digital film grain overlay --ar 9:16 --style raw --v 6.1"
+}

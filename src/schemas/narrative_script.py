@@ -19,7 +19,9 @@ class NarrativeScriptInput(BaseModel):
 # OUTPUT
 
 class AudioCue(BaseModel):
-    timestamp_hint: str = Field(description="Relative position. E.g. 'opening', 'scene_2', 'climax', 'outro'.")
+    timestamp_hint: Literal[
+        "beginning", "turning_point", "climax", "resolution"
+    ]
     cue_type: Literal["sfx", "music_in", "music_out", "music_swell", "ambient"]
     description: str
 

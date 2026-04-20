@@ -1,19 +1,21 @@
 {
-    "shot_style": "cinematic",
-    "pacing": "rapid_cut",
-    "genre_anchors": [
-      "epic fantasy",
-      "mythology",
-      "action",
-      "sci-fi"
-    ],
-    "opening_technique": "extreme close-up of a glowing primordial eye that suddenly expands into a cosmic battlefield",
-    "visual_motif": "shifting celestial light patterns representing divine power",
-    "camera_language": "use sweeping crane and dolly shots during exposition to convey grandeur; switch to handheld and quick whip pans during battle sequences to heighten chaos and intensity; locked off steady shots for moments of resolution and divine decree",
-    "forbidden_elements": [
-      "comedic or cartoonish visuals",
-      "modern or anachronistic props or costumes",
-      "slow static shots during battle scenes",
-      "overuse of text overlays or explanatory graphics"
-    ]
-  }
+  "shot_style": "documentary",
+  "pacing": "slow_build",
+  "genre_anchors": [
+    "Andrei Tarkovsky slow cinema",
+    "BBC nature documentary",
+    "Greek marble bas-relief animation",
+    "early 2000s psychological thriller title sequences"
+  ],
+  "opening_technique": "Camera lingers in semi-darkness on a stone surface, panning slowly across faint, ambiguous carvings—shadows flicker over one partially obscured figure, hands reaching but frozen, creating a palpable sense of dread before context emerges.",
+  "visual_motif": "A fractured or shattered family heirloom—such as a broken stone tablet or split golden medallion—that appears in various states (cracked, hidden, mended, or split further) in each scene, embodying the legacy of generational trauma.",
+  "camera_language": "During moments of paranoia or suspicion → handheld, slightly shaky close tracking shots that never give a full view of the subject; When characters defy their parents → low-angle shots with the background fractured or split by foreground objects; In scenes of apparent victory → wide, static shots that emphasize distance between figures; Whenever the motif appears → slow push-in to linger on the object, withholding full context until later.",
+  "forbidden_elements": [
+    "No golden-hour heroic lighting—this story is not a triumph.",
+    "No slow-motion battle sequences or grand war montages—aestheticized violence undermines the trauma focus.",
+    "No Olympian thrones or epic vistas as establishing shots—the world should feel claustrophobic, not grand.",
+    "No warm familial reunions—the tone is uneasy, not redemptive.",
+    "No overtly mythological props like thunderbolts or winged sandals unless distorted or broken—the divine must feel wounded.",
+    "No voice-over exposition or text overlays in the opening—the dread must be felt, not explained."
+  ]
+}

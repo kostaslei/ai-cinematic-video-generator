@@ -1,42 +1,51 @@
 {
-    "total_scenes": 4,
-    "total_duration_seconds": 45,
-    "scenes": [
-      {
-        "scene_id": "sc_01",
-        "duration_seconds": 10,
-        "narrative_beat": "Beginning: Introduce the primordial gods as the original creators of the universe, majestic and all-powerful.",
-        "action": "Extreme close-up of a glowing primordial eye that suddenly expands into a vast cosmic battlefield; sweeping crane and dolly shots reveal majestic celestial light patterns shaping stars and worlds.",
-        "mood": "awe, majestic, mysterious",
-        "narration_segment": "In the beginning, there was only the primordial gods — majestic, eternal, and all-powerful creators of the cosmos. Their divine light shaped the void, birthing stars, worlds, and the very fabric of existence itself.",
-        "transition_to_next": "fade"
-      },
-      {
-        "scene_id": "sc_02",
-        "duration_seconds": 12,
-        "narrative_beat": "Turning Point: The younger Titans rise in rebellion, igniting a fierce, earth-shattering battle that challenges the old order.",
-        "action": "Handheld and quick whip pan shots show the younger Titans rising, their fierce expressions and power surging; cosmic wind and star pulses set vastness; orchestral strings swell as battle ignites.",
-        "mood": "tense, exciting, chaotic",
-        "narration_segment": "But from their own bloodline, the younger Titans rose — fierce, rebellious, hungry for power. A cosmic war erupted, shaking galaxies, as these titanic forces clashed in a brutal battle for supremacy.",
-        "transition_to_next": "whip_pan"
-      },
-      {
-        "scene_id": "sc_03",
-        "duration_seconds": 13,
-        "narrative_beat": "Climactic battle: Flames of chaos blaze through the heavens, celestial bodies shatter, and the fate of existence hangs in the balance.",
-        "action": "Rapid cuts of explosive battle scenes with flames, shattered celestial bodies, and intense clashes of divine weapons; aggressive brass and rhythmic percussion heighten chaos and violence.",
-        "mood": "intense, chaotic, violent",
-        "narration_segment": "Flames of chaos blazed through the heavens, celestial bodies shattered, and the fate of all existence hung in the balance.",
-        "transition_to_next": "fade"
-      },
-      {
-        "scene_id": "sc_04",
-        "duration_seconds": 10,
-        "narrative_beat": "Resolution: The victorious gods establish a new cosmic order, forever changing the fate of the universe and mortals alike.",
-        "action": "Locked off steady shots of victorious gods standing amid calm cosmic light patterns; music transitions to solemn, reverent theme with soft choir and sustained strings; gentle cosmic hum fades.",
-        "mood": "reverent, epic, resolved",
-        "narration_segment": "In the end, the victorious gods forged a new cosmic order — balanced, yet born from struggle and transformation. This is the story of divine conflict that shaped the universe — reminding us that even gods are born of war, and all power comes with a price.",
-        "transition_to_next": "none"
-      }
-    ]
-  }
+  "total_scenes": 5,
+  "total_duration_seconds": 45,
+  "scenes": [
+    {
+      "scene_id": "sc_01",
+      "duration_seconds": 7,
+      "narrative_beat": "beginning",
+      "action": "Camera lingers in semi-darkness on a cracked stone tablet, slowly panning across faint, ambiguous carvings of hands reaching but frozen. Shadows flicker over the fractured surface, emphasizing the jagged breaks in the stone motif.",
+      "mood": "inherited dread, suffocating",
+      "narration_segment": "Fear tastes like stone in the mouth. [PAUSE]",
+      "transition_to_next": "fade"
+    },
+    {
+      "scene_id": "sc_02",
+      "duration_seconds": 9,
+      "narrative_beat": "beginning",
+      "action": "Handheld, slightly shaky close tracking shot of a dark, claustrophobic cave interior where a shadowy figure swallows small, indistinct shapes representing newborns. The fractured golden medallion lies cracked on the ground, partially hidden in shadow, with a slow push-in lingering on its broken edges.",
+      "mood": "paranoia, desperation",
+      "narration_segment": "In darkness, Cronus swallows his newborns—each gulp a desperate, silent bargain with fate. [PAUSE] The world shrinks, love curdles; dread passes from father to child, unspoken yet heavy as granite.",
+      "transition_to_next": "cut"
+    },
+    {
+      "scene_id": "sc_03",
+      "duration_seconds": 9,
+      "narrative_beat": "turning_point",
+      "action": "Low-angle shot of a fractured stone wall split by a jagged crack in the foreground, behind which a small figure is hidden in deep shadow. The camera slowly pushes in on a partially mended but still cracked family heirloom—a split golden medallion—held tightly in the figure’s hand.",
+      "mood": "secretive, haunted",
+      "narration_segment": "Yet one child escapes. Rhea’s secret—the child hidden in shadows, raised apart. [PAUSE] Cronus grows hollow, haunted by what he cannot consume. [PAUSE]",
+      "transition_to_next": "fade"
+    },
+    {
+      "scene_id": "sc_04",
+      "duration_seconds": 10,
+      "narrative_beat": "turning_point",
+      "action": "Handheld close tracking shot with slight shakiness capturing a low-angle view of a figure standing defiantly against a fractured stone background. The sky above is obscured by cracked stone slabs, slowly splitting apart as the camera lingers on the fractured family medallion lying shattered at the figure’s feet.",
+      "mood": "tension, fracture",
+      "narration_segment": "When Zeus returns, the sky splits. The gods rage, not for glory, but because they were broken first. [EMPHASIS]",
+      "transition_to_next": "cut"
+    },
+    {
+      "scene_id": "sc_05",
+      "duration_seconds": 10,
+      "narrative_beat": "resolution",
+      "action": "Wide, static shot of a cold, ruined stone altar scattered with broken fragments of the family heirloom medallion. The camera slowly pushes in on the cracked medallion as the ambient light dims, emphasizing distance and isolation between figures off-screen.",
+      "mood": "uneasy triumph, hollow",
+      "narration_segment": "Victory comes—Zeus crowned in the ruins of his father’s hunger. [PAUSE] But the taste of stone lingers. The throne is cold, the old wounds unhealed. [PAUSE] Power changes hands, but fear survives, waiting for its next heir.",
+      "transition_to_next": "none"
+    }
+  ]
+}

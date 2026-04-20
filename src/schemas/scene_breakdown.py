@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator, model_validator
 from schemas.concept_director import ConceptDirectorOutput
 from schemas.video_input import VideoInput
 from schemas.narrative_script import NarrativeScriptOutput
